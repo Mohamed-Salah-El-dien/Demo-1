@@ -1,0 +1,88 @@
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  background-color: var(--dark);
+  border-bottom: 3px solid var(--orange);
+}
+
+.service-container h1 {
+  margin: 2rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px var(--orange);
+  color: white;
+  text-align: center;
+}
+
+.service-container .grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.service-container .grid div:first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.service-container .grid .service {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 25rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  border-right: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
+  transition: 0.25s ease-in;
+}
+
+.service-container .grid .service:hover {
+  cursor: pointer;
+  box-shadow: 2rem 3.5rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.service-container .grid .service h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px white;
+  color: var(--orange);
+}
+
+.service-container .grid .service p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px var(--dark);
+  color: white;
+}
+
+.service-container .grid .service img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .service-container .grid {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .service-container .grid {
+    grid-template-columns: auto;
+  }
+
+  .service-container .grid div:first-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}

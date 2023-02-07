@@ -1,0 +1,49 @@
+:root {
+  --blue: #176eb6;
+  --dark: #114b75;
+  --orange: #ffa500;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+footer,
+nav,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+footer,
+nav {
+  display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
