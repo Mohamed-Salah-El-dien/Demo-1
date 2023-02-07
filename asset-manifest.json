@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Demo-1/static/css/main.12f4a196.css",
+    "main.js": "/Demo-1/static/js/main.297bd759.js",
+    "static/media/video.mp4": "/Demo-1/static/media/video.254ff1cd7d0fb45478f9.mp4",
+    "static/media/work1.svg": "/Demo-1/static/media/work1.0e2058107aef083915bd8cbf77b9b0a0.svg",
+    "static/media/process.svg": "/Demo-1/static/media/process.641bca04f479c2fade6b0b72bcce07ad.svg",
+    "static/media/wordpress.svg": "/Demo-1/static/media/wordpress.d2643a2ebf050085c92997f6b78d927f.svg",
+    "static/media/work2.svg": "/Demo-1/static/media/work2.4558f412297d57b72af16a3ef4091726.svg",
+    "static/media/pic1.svg": "/Demo-1/static/media/pic1.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/honest.svg": "/Demo-1/static/media/honest.c51cb049d90bccef8379664527bc9ae6.svg",
+    "static/media/coms.svg": "/Demo-1/static/media/coms.9e60a2a8db74b95fbd24d95ca851cf57.svg",
+    "static/media/work3.svg": "/Demo-1/static/media/work3.8579d0e33b7d84c5c5304b08a9709a07.svg",
+    "static/media/quality.svg": "/Demo-1/static/media/quality.5f33e86e8dda7c5033fbf37b863419fe.svg",
+    "static/media/shopify.svg": "/Demo-1/static/media/shopify.138a209e744d87c12c8eb02c20b09a8f.svg",
+    "static/media/logo.jfif": "/Demo-1/static/media/logo.b63b6a7a898190c2555d.jfif",
+    "index.html": "/Demo-1/index.html",
+    "main.12f4a196.css.map": "/Demo-1/static/css/main.12f4a196.css.map",
+    "main.297bd759.js.map": "/Demo-1/static/js/main.297bd759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12f4a196.css",
+    "static/js/main.297bd759.js"
+  ]
+}
